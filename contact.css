@@ -1,0 +1,121 @@
+body {
+    background : black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./luca-bravo-217276-unsplash.jpg);
+    background-size: cover;
+    font-family: 'Work Sans', sans-serif;
+    }
+    
+    .portfolio {
+    width: 80%;
+    }
+    
+    ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline
+    
+    }
+    
+    .links {
+        display: flex;
+        
+    }
+    .Emira {
+    color: #0056B3
+    
+    
+    }
+    
+    .nav {
+        background-color: rgb(232, 237, 241);
+        border: 10px solid rgb(232, 237, 241);
+        border-radius: 10px;
+        margin-top: 10px;
+       margin-bottom: 40px;
+    
+    }
+
+
+
+    .mycontacts {
+background-color:  #e8edf1;;
+height: 200px;
+width: 700px;
+margin-right: auto ;
+margin-left: auto;
+margin-bottom: 20px;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center
+
+
+
+
+    }
+    .form {
+        display: flex;
+justify-content: center;
+align-items: center;
+background-color: #e8edf1;
+width: 700px;
+border-radius: 5px;
+margin-right: auto ;
+margin-left: auto;
+padding: 10px
+
+    }
+
+    .main * 
+{
+color: black ;
+width: 300px;
+
+}
+
+.btn 
+{
+background:pink; 
+border: black;
+height:30px;
+}
+
+input, textarea 
+{
+background-color:wheat;
+border-radius: 3px;
+border: black
+}
+input
+{
+width :200px; 
+height:30px;
+
+}
+
+textarea {
+    width :200px; 
+    height:30;
+}
+.send-reset
+{
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 80px;
+width :200px; 
+height:6;
+
+}
+
+.mycontacts *:hover {
+
+color: #0056B3;
+font-size: 30px;
+cursor: pointer;
+}
